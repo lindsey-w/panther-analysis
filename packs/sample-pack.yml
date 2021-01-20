@@ -1,0 +1,9 @@
+AnalysisType: Pack
+PackType: Detection
+PackID: A.Pack.ID
+Description: This pack groups awesome stuff together
+DetectionPatterns:
+  - ID:
+    - AWS.CloudTrail.Created
+    - AWS.Console.LoginFailed
+DisplayName: Totally Awesome Pack
